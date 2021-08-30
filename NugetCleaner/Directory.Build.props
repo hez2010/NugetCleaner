@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <IlcOptimizationPreference>Size</IlcOptimizationPreference>
+    <IlcGenerateStackTraceData>false</IlcGenerateStackTraceData>
+    <IlcFoldIdenticalMethodBodies>true</IlcFoldIdenticalMethodBodies>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <TrimMode>Link</TrimMode>
+    <IlcDisableReflection>true</IlcDisableReflection>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="7.0.0-*" />
+  </ItemGroup>
+</Project>
